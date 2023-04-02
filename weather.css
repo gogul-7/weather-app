@@ -1,0 +1,51 @@
+body{
+    background-image: url("./pexels-max-andrey-1254736.jpg");
+    background-size: cover;
+}
+.whead{
+    font-family: system-ui;
+    font-weight: 300;
+    font-size: xx-large;
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
+.maincourse{
+    width:400px;
+    height: 600px;
+    background: rgba(250, 253, 251, 0.519);
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.input-group{
+    text-transform: uppercase;
+}
+#temperature{
+    display: flex;
+    justify-content: left;
+    font-size: 45px;
+    margin-top: 10px;
+    font-family: system-ui;
+    font-weight: lighter;
+}
+#feelLike{
+    display: flex;
+    justify-content: left;
+}
+#cityName{
+    display: flex;
+    justify-content: left;
+    font-size: 30px;
+    margin-top: 30px;
+    text-transform: uppercase;
+}
+#countryName{
+    font-size: 20px;
+    display: flex;
+    justify-content: left;
+}
+.details{
+    display: flex;
+    justify-content: left;
+}
